@@ -1,5 +1,6 @@
- # Logstash
- ## Setup
+# Logstash
+
+## Setup
  * Build image
  
     ```sh
