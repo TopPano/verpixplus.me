@@ -8,7 +8,7 @@ var aws = new AwsCli({
 
 
 var region = 'ap-northeast-1';
-var tag = 'production';
+var tag = 'verpixplus';
 var filters = 'Name=tag:Env,Values='+tag;
 
 var metrics = ['CPUUtilization'];
