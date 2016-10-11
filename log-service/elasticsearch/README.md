@@ -13,12 +13,12 @@
 * Start container
 
     ```sh
-    $ docker run $containerId
+    $ docker start $containerId
     ```
   
 * Import template
 
     ```sh
-    $ curl -XPUT localhost:9200 -d @./ec2_template.json
+    $ curl -XPUT localhost:9200/_template/ec2_template -d @./ec2_template.json
     ```
 
