@@ -8,7 +8,7 @@
 * Create container 
 
     ```sh
-    $ docker create -p 9200:9200 $imageId
+    $ docker create --restart always -p 9200:9200 $imageId
     ```
 * Start container
 

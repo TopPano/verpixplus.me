@@ -8,7 +8,7 @@
 * Create container
  
     ```sh
-    $ docker create --env ELASTICSEARCH_URL=http://$host:$port -p $expose_port:5601  $imageId
+    $ docker create --restart always --env ELASTICSEARCH_URL=http://$host:$port -p $expose_port:5601  $imageId
     ```
 * Start container
   
